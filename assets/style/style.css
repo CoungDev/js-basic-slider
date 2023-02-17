@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+#img-container{
+  width: 45rem;
+  height: 60vh;;
+  border-radius: 5px;
+  border: 8px solid #3E92CC;
+  /* background-image: url("https://vcdn1-vnexpress.vnecdn.net/2022/11/17/2-5139-1668656514.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=ExoX82YKxnWsS3dV4gW2DQ"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+i{
+  align-self: center;
+  font-size: 2rem;
+  margin: -5px;
+  z-index: 2;
+  color: #3E92CC;
+  cursor: pointer;
+}
+
